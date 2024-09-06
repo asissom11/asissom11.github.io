@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: CS-499 ePortfolio
 description: Bookmark this to keep an eye on my project updates!
+show_downloads: true
