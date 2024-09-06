@@ -1,6 +1,6 @@
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: CS-499 ePortfolio
-description: Bookmark this to keep an eye on my project updates!
+title: Aaron Sissom ePortfolio
+description: CS-499 - Computer Science Capstone
 show_downloads: true
