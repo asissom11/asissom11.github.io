@@ -1,5 +1,3 @@
-# asissom11.github.io
-
 ##  CS-499 SNHU Computer Science Capstone
 
 ### Artifact One Enhancement - Android Mobile App
