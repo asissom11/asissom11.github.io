@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ItemList">
+
+    <LinearLayout
+        android:id="@+id/headerLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/editBtnColumn"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/borders"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/descriptionColumn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/borders"
+            android:paddingStart="5pt"
+            android:paddingEnd="5pt"
+            android:text="@string/item_row_description"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quantityColumn"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/borders"
+            android:gravity="center_horizontal"
+            android:text="@string/item_quantity"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/unitsColumn"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/borders"
+            android:gravity="center_horizontal"
+            android:text="@string/item_unit"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/delBtnColumn"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/borders"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_itemList"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/scrollview_description"
+        app:layout_constraintBottom_toTopOf="@+id/footer1LinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLinearLayout">
+
+        <!-- Dynamically insert item row -->
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/footer1LinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/footer2LinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/purple"
+            android:contentDescription="@string/add_item_button_description"
+            app:srcCompat="@drawable/add_item" />
+
+        <ImageButton
+            android:id="@+id/btn_smsAlerts"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/purple"
+            android:contentDescription="@string/sms_button_description"
+            app:srcCompat="@drawable/sms_notification" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btn_deleteAll"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/purple"
+            android:contentDescription="@string/delete_all_button_description"
+            app:srcCompat="@drawable/delete_all" />
+
+        <TextView
+            android:id="@+id/totalItems"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/purple"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer2LinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/addButtonLabel"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/additem_activity_title"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/smsButtonLabel"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/sms_button_label"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/currentUserLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="@string/current_user"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/deleteAllItemsLabel"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_all_button_text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/totalItemsLabel"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/total_items"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
