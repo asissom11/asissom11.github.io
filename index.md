@@ -21,19 +21,7 @@ The  artifact I decided to improve is the Android mobile inventory management ap
 
 This was by no means an easy project to revive, fix, or improve, so I’m particularly proud of how the 2FA worked out. Using Firebase to authenticate users was a new experience but learning to navigate its implementation was very beneficial. I am still far from fluent in Java and SQLite, but thanks to this project I am much more comfortable with both languages and how they can be used in tandem. Additionally, it was important for me to focus on getting the architecture and design piece correct so that everything could fall into place more naturally. I was somewhat right about it being a challenge, and although it may have been a little bit more on the ambitious side of challenging, I stuck with it and got it across the line. Looking forward, this artifact looks to be the hardest in terms of skill level so I’m excited to get it into my ePortfolio and close the book on it so I can move forward.
 
-![](img/enhancement_one/StashTrack_item_list.png)
-![](img/enhancement_one/StashTrack_delete_all_popup.png)
-
-![](img/enhancement_one/StashTrack_2FA_register.png)
-
-
-
-
-
-
-
-
-
+![](img/enhancement_one/new_authorized_user_success.png)
 
 [Artifact One Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_One_Android_App/StashTrackImproved)
 
