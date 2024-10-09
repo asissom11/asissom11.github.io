@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: Aaron Sissom ePortfolio
 description: CS499 - Computer Science Capstone
-show_downloads: true
+show_downloads: false
