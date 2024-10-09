@@ -1,13 +1,13 @@
 # CS-499 ePortfolio
 
+# ePortfolio Summary
+TODO: Add text here
+
 
 ## Code Review
 
 [CS-499 Artifact Enhancement Code Review](https://youtu.be/R_RBc6R0Ds)
 
-
-# ePortfolio Summary
-TODO: Add text here
 
 
 # Professional Self-assessment
