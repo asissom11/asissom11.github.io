@@ -17,15 +17,29 @@ TODO: Add text here
 
 # Artifact Enhancement One: Software Design and Engineering
 
-The  artifact I decided to improve is the Android mobile inventory management app from CS-360 Mobile Architecture and Programming. I chose this artifact because I thought it represented a significant enough challenge that I could show some skill in overcoming. In any case, this artifact is meant to showcase primarily a multifactor authentication feature as well as some other minor additions including improved CRUD operations and aesthetics. The multifactor authentication feature showcases the skills I have developed and the tenacity I’ve acquired through my time in the computer science program. At the end of this effort, I can say that I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. With the implementation of two-factor authentication, I exhibited a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+The  artifact I decided to improve is the Android mobile inventory management app from CS-360 Mobile Architecture and Programming. I chose this artifact because I thought it represented a significant enough challenge that I could show some skill in overcoming. In any case, this artifact is meant to showcase primarily a multifactor authentication feature as well as some other minor additions including improved CRUD operations and aesthetics. The multifactor authentication feature showcases the skills I have developed and the tenacity I’ve acquired through my time in the computer science program. At the end of this effort, I can say that I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals. With the implementation of two-factor authentication, I exhibited a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
-This was by no means an easy project to revive and fix, let alone improve upon, so I’m particularly proud of the way the 2FA worked out. I am still far from fluent in Java and SQLite, but thanks to this project I am much more comfortable with both languages and how they can be used in tandem. Additionally, it was important for me to focus on getting the architecture and design piece correct so that everything could fall into place more naturally. I was somewhat right about it being a challenge, and although it may have been a little bit more on the ambitious side of challenging, I stuck with it and got it across the line. Looking forward, this artifact looks to be the hardest in terms of skill level so I’m excited to get it into my ePortfolio and close the book on it so I can move forward.
+This was by no means an easy project to revive, fix, or improve, so I’m particularly proud of how the 2FA worked out. Using Firebase to authenticate users was a new experience but learning to navigate its implementation was very beneficial. I am still far from fluent in Java and SQLite, but thanks to this project I am much more comfortable with both languages and how they can be used in tandem. Additionally, it was important for me to focus on getting the architecture and design piece correct so that everything could fall into place more naturally. I was somewhat right about it being a challenge, and although it may have been a little bit more on the ambitious side of challenging, I stuck with it and got it across the line. Looking forward, this artifact looks to be the hardest in terms of skill level so I’m excited to get it into my ePortfolio and close the book on it so I can move forward.
+
+![](img/enhancement_one/StashTrack_item_list.png)
+![](img/enhancement_one/StashTrack_delete_all_popup.png)
+
+![](img/enhancement_one/StashTrack_2FA_register.png)
+
+
+
+
+
+
+
+
+
 
 [Artifact One Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_One_Android_App/StashTrackImproved)
 
 # Artifact Enhancement Two: Data Structures and Algorithms
 
-The artifact I decided to enhance for this stage in the course is the Pet Boarding and Grooming app from IT-145 Foundations in Application Development. This app handles the check-in and check-out of pets (only dogs and cats currently), and creates a billing statement to represent what the person at the check-in counter would be interfacing with. The source files were created at the start of my time at SNHU, so around 2020, and haven’t been touched since. In fact, I actually thought I had lost the source code altogether but it was saved on my old laptop.
+The artifact I decided to enhance for this stage in the course is the Pet Boarding and Grooming app from IT-145 Foundations in Application Development. This app handles the check-in and check-out of pets (only dogs and cats currently) and creates a billing statement to represent what the person at the check-in counter would be interfacing with. The source files were created at the start of my time at SNHU, so around 2020, and haven’t been touched since. In fact, I initially thought I had lost the source code altogether but it was saved on my old laptop.
 
 This artifact belongs in my portfolio because it represents my knowledge of how to use Object-oriented programming principles with developed testing and quality assurance skills. The project enhancements also show how I develop applications while maintaining a security mindset, and that I am proficient in improving code efficiency. The artifact I selected was improved by adding a MySQL relational database to store the different data generated from pets and owners checking in for boarding and/or grooming services. Additionally, the existing class structure was altered to adhere to industry standard best practices for software development such as utilizing camel case naming conventions for variable and method definitions.
 
