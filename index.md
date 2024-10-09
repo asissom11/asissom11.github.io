@@ -43,6 +43,10 @@ Specific reasons for inclusion of this enhanced artifact into my ePortfolio incl
 
 The benefit of using the MVC pattern is its separation of concerns and in this structure, the model manages data with MongoDB and Python, the view controls the user interface through the Dash framework, and the controller handles data interactions between the model and view using the PyMongo driver. Each record in the MongoDB database is stored as a machine-readable BSON document, which the web app retrieves and displays in a human-readable JSON format. When the main app file is executed, the user can open a new browser tab, navigate to the appropriate address, and view the client-facing dashboard.
 
+
+![](img/enhancement_three/all_animals.png)
+
+
 This artifact's enhancements focused on recreating the web app in a Windows environment after it was initially developed in the Apporto Virtual Lab, a university-hosted Linux service. In this process, I ensured that the software was designed to meet user needs and followed a well-organized structure. Using the initial documentation as a guide, I successfully recreated the web application environment and updated the documentation to reflect the steps taken to replicate and run the app on a Windows machine, highlighting my ability to design and deliver professional-quality written and visual communications that are technically sound, coherent, and appropriately adapted to the specific project details. The setup and execution processes were challenging, but I was able to demonstrate my ability to apply innovative techniques, skills, and tools throughout. This included configuring Python and MongoDB before following the app’s documentation. I also updated the source code to handle the latest versions of both the PyMongo driver and MongoDB platform, showcasing my ability to implement practical computer solutions that align with industry standards and deliver real value.
 
 [Artifact Three Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_Three_Animal_Shelter_Dashboard/CS_499_Artifact_Three_Enhanced_Files_Sissom_Aaron)
