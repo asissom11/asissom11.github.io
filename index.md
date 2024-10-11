@@ -30,7 +30,7 @@ I’m particularly proud of how the 2FA worked out and using Google Firebase to 
 
 ![](img/enhancement_one/new_authorized_user_success.png)
 
-[Artifact One Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_One_Android_App/StashTrackImproved)
+[Artifact One Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_One_Android_App/)
 
 # Artifact Enhancement Two: Data Structures and Algorithms
 
@@ -42,7 +42,7 @@ This artifact belongs in my portfolio because it represents my knowledge of how 
 
 I employed strategies for building collaborative environments with this project by using clear and concise comments and adding detailed explanations of key functions, variable names, and logic flows. With well-documented logic, other team members can use my code to inform design and decision-making processes, such as how pet records are managed and what services are charged in the system. I have developed a security mindset that anticipates adversarial exploits by explicitly using prepared statements, safeguarding against SQL injection attacks. This security-first mindset aligns with the need to ensure the privacy and enhanced security of particularly sensitive data, such as pet owner details. In several parts of the code, I have handled edge cases like null values and invalid inputs, which also helps to prevent unexpected behaviors that could be exploited. I have designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards by making design choices that manage complexity, such as using a HashMap for boarding spaces. This provides constant-time complexity (O(1)) for inserts and lookups, with an expected but necessary increase in memory usage versus a simple array structure. The checkout process showcases how I have accounted for edge cases like incorrect data and made the system robust against such errors.
 
-[Artifact Two Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_Two_Pet_BAG_App/Pet_BAG_enhanced)
+[Artifact Two Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_Two_Pet_BAG_App/)
 
 # Artifact Enhancement Three: Databases
 
@@ -56,4 +56,4 @@ The benefit of using the MVC pattern is its separation of concerns and in this s
 
 This artifact's enhancements focused on recreating the web app in a Windows environment after it was initially developed in the Apporto Virtual Lab, a university-hosted Linux service. In this process, I ensured that the software was designed to meet user needs and followed a well-organized structure. Using the initial documentation as a guide, I successfully recreated the web application environment and updated the documentation to reflect the steps taken to replicate and run the app on a Windows machine, highlighting my ability to design and deliver professional-quality written and visual communications that are technically sound, coherent, and appropriately adapted to the specific project details. The setup and execution processes were challenging, but I was able to demonstrate my ability to apply innovative techniques, skills, and tools throughout. This included configuring Python and MongoDB before following the app’s documentation. I also updated the source code to handle the latest versions of both the PyMongo driver and MongoDB platform, showcasing my ability to implement practical computer solutions that align with industry standards and deliver real value.
 
-[Artifact Three Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_Three_Animal_Shelter_Dashboard/CS_499_Artifact_Three_Enhanced_Files_Sissom_Aaron)
+[Artifact Three Enhancement Repo](https://github.com/asissom11/CS499/tree/main/Artifact_Three_Animal_Shelter_Dashboard/)
