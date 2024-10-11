@@ -18,19 +18,15 @@ One of the most important areas of focus for software developers, and IT profess
 
 As I move forward, I’m eager to continue learning and growing. I embrace challenges and do not hesitate to seek guidance from experienced mentors and coworkers to improve my skills. I thrive in fast-paced environments where organization, adaptability, and technical curiosity are essential. My goal is to excel in new technologies, push myself beyond my comfort zone, and contribute to high-quality, innovative projects.
 
-
-
 ## Code Review
 
 [CS-499 Artifact Enhancement Code Review](https://youtu.be/R_RBc6R0Ds)
-
-
 
 # Artifact Enhancement One: Software Design and Engineering
 
 The  artifact I decided to improve is the Android mobile inventory management app from CS-360 Mobile Architecture and Programming. I chose this artifact because I thought it represented a significant enough challenge that I could show some skill in overcoming. This artifact is meant to showcase primarily a multifactor authentication feature as well as including improved CRUD operations and aesthetics. The multifactor authentication feature showcases the skills I have developed and the tenacity I’ve acquired through my time in the computer science program. At the end of this effort, I can say that by updating and improving the algorithmic structure of the project I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals. With the implementation of two-factor authentication, I exhibited a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
-I’m particularly proud of how the 2FA worked out and using Google Firebase to authenticate users was a new experience, but learning to navigate its implementation was very beneficial. I am still far from fluency in Java and SQLite, but thanks to this project I am much more comfortable with both languages and how they can be used in tandem. Additionally, it was important for me to focus on getting the architecture and design piece correct so that everything could fall into place more naturally. I was somewhat right about it being a challenge, and although it may have been a little bit more on the ambitious side of challenging, I stuck with it and got it across the line. Looking forward, this artifact looks to be the hardest in terms of skill level so I’m excited to get it into my ePortfolio and close the book on it so I can move forward.
+I’m particularly proud of how the 2FA worked out and using Google Firebase to authenticate users was a new experience, but learning to navigate its implementation was very beneficial. I am still far from fluency in Java and SQLite, but thanks to this project I am much more comfortable with both languages and how they can be used in tandem. Additionally, it was important for me to focus on getting the architecture and design piece correct so that everything could fall into place more naturally. I was somewhat right about it being a challenge, and although it may have been a little bit more on the ambitious side of challenging, I stuck with it and got it across the line. Looking forward, this artifact looks to be the hardest in terms of skill level so I’m excited to finally get it into my ePortfolio.
 
 ![](img/enhancement_one/new_authorized_user_success.png)
 
@@ -56,9 +52,7 @@ Specific reasons for inclusion of this enhanced artifact into my ePortfolio incl
 
 The benefit of using the MVC pattern is its separation of concerns and in this structure, the model manages data with MongoDB and Python, the view controls the user interface through the Dash framework, and the controller handles data interactions between the model and view using the PyMongo driver. Each record in the MongoDB database is stored as a machine-readable BSON document, which the web app retrieves and displays in a human-readable JSON format. When the main app file is executed, the user can open a new browser tab, navigate to the appropriate address, and view the client-facing dashboard.
 
-
 ![](img/enhancement_three/all_animals.png)
-
 
 This artifact's enhancements focused on recreating the web app in a Windows environment after it was initially developed in the Apporto Virtual Lab, a university-hosted Linux service. In this process, I ensured that the software was designed to meet user needs and followed a well-organized structure. Using the initial documentation as a guide, I successfully recreated the web application environment and updated the documentation to reflect the steps taken to replicate and run the app on a Windows machine, highlighting my ability to design and deliver professional-quality written and visual communications that are technically sound, coherent, and appropriately adapted to the specific project details. The setup and execution processes were challenging, but I was able to demonstrate my ability to apply innovative techniques, skills, and tools throughout. This included configuring Python and MongoDB before following the app’s documentation. I also updated the source code to handle the latest versions of both the PyMongo driver and MongoDB platform, showcasing my ability to implement practical computer solutions that align with industry standards and deliver real value.
 
